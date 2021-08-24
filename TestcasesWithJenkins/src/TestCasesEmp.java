@@ -27,7 +27,7 @@ public class TestCasesEmp {
 		String del=EmployeeTest.deleteEmp(3);
 		int size1=EmployeeTest.fetchAllEmps();
 		assertEquals(null,res);
-		assertEquals("ramya",upd);
+		assertEquals("divya",upd);
 		assertEquals("nathira",fetch);
 		assertEquals(3,size);
 		assertEquals("nathira",del);
